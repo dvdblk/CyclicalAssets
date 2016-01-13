@@ -17,6 +17,9 @@ var backpack: Asset? = Asset(name: "Blue backpack", value: 45.0)
 
 bob?.takeOwnershipOfAsset(laptop!)
 bob?.takeOwnershipOfAsset(backpack!)
+print(bob?.assets)
+bob?.loseOwnershipOfAsset(backpack!)
+print(bob?.assets)
 print("While bob's alive the owner of laptop is: \(laptop!.owner)")
 bob = nil
 print("the bob variable is now \(bob)")
@@ -25,3 +28,4 @@ print("When bob's dead the owner of laptop is: \(laptop!.owner)")
 laptop = nil
 hat = nil
 backpack = nil
+

@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "4E496410A9B3B038FF3B547ADA22CA54F8EF1409",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "0071FB53B4966A70F24D0A11087BA27E21FC7BD9" : 0,
+    "4E496410A9B3B038FF3B547ADA22CA54F8EF1409" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "2B540505-1A13-4F7B-BE70-790FBC20FE3A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "0071FB53B4966A70F24D0A11087BA27E21FC7BD9" : "CyclicalAssets\/CyclicalAssets\/",
+    "4E496410A9B3B038FF3B547ADA22CA54F8EF1409" : "CyclicalAssets\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "CyclicalAssets",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "CyclicalAssets.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/dvdblk\/CyclicalAssets.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0071FB53B4966A70F24D0A11087BA27E21FC7BD9"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/dvdblk\/CyclicalAssets.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4E496410A9B3B038FF3B547ADA22CA54F8EF1409"
+    }
+  ]
+}
