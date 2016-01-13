@@ -31,9 +31,13 @@ class Person: CustomStringConvertible {
     }
     
     func takeOwnershipOfAsset(asset: Asset) {
-        asset.owner = self
-        assets.append(asset)
-        accountant.gainedNewAsset(asset)
+        if asset.owner == nil {
+            asset.owner = self
+            assets.append(asset)
+            accountant.gainedNewAsset(asset)
+        } else {
+            print("The owner of this asset is \(asset.owner!)")
+        }
     }
     func netWorthDidChange(netWorth: Double) {
         print("The net worth of \(self) is now \(netWorth)")
